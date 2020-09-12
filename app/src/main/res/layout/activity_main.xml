@@ -8,13 +8,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/roll_number_text"
+    <ImageView
+        android:id="@+id/dice_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1"
-        android:textSize="30sp"
         android:layout_gravity="center_horizontal"
+        tools:src="@drawable/dice_1"
+        app:srcCompat="@drawable/empty_dice"
         />
 
     <Button
